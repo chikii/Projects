@@ -8,8 +8,8 @@
     Results ->
     1. Peak Accuracy on Train data - 88.18%
     2. Peak Accuracy on Test data  - 83.7%
-    3. Graphs of Accuracy - fig/Network1Accuracy.png
-    4. Graphs of Cost - fig/Network1Cost.png
+    3. Graphs of Accuracy - https://github.com/chikii/Projects/blob/master/Digit%20Recognitation/fig/Network1Accuracy.png
+    4. Graphs of Cost - https://github.com/chikii/Projects/blob/master/Digit%20Recognitation/fig/Network1Cost.png
 
 
 2. Neural Network 2
@@ -23,6 +23,5 @@
     Results ->
     1. Peak Accuracy on Train data - 90.8%
     2. Peak Accuracy on Test data  - 87.1%
-    3. Graphs of Accuracy - fig/Network2Accuracy.png
-    4. Graphs of Cost - fig/Network2Cost.png
-
+    3. Graphs of Accuracy - https://github.com/chikii/Projects/blob/master/Digit%20Recognitation/fig/Network2Accuracy.png
+    4. Graphs of Cost - https://github.com/chikii/Projects/blob/master/Digit%20Recognitation/fig/Network2Cost.png
