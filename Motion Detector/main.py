@@ -11,7 +11,7 @@ frame2 = cv2.resize(frame2, (frame2.shape[1]//2,frame2.shape[0]//2))
 while True:
     delta_frame = cv2.absdiff(first_frame,frame2)
     gray = cv2.cvtColor(delta_frame, cv2.COLOR_BGR2GRAY)
-    blur = cv2.GaussianBlur(gray,(21,21),0)
+    #blur = cv2.GaussianBlur(gray,(21,21),0)
     thresh_delta = cv2.threshold(gray, 135, 255, cv2.THRESH_BINARY)[1]
     #thresh_delta = cv2.adaptiveThreshold(blur,255,cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY,51,-9)
     thresh_delta = cv2.dilate(thresh_delta,None,iterations=3)

@@ -22,4 +22,4 @@ f = open('Report_network2.json','w')
 json.dump(data, f)
 f.close
 
-
+net.save('model.h5')
