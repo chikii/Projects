@@ -17,7 +17,6 @@ usage ->
 
 from PyPDF2 import PdfFileWriter, PdfFileReader
 import os
-output = PdfFileWriter() 
 
 
 def formate_pdf_to_A4(file_name, file_path, output_path):
@@ -26,6 +25,7 @@ def formate_pdf_to_A4(file_name, file_path, output_path):
     file_path += '/' + file_name
     file = open(file_path, 'rb')
     pdf = PdfFileReader(file) 
+    output = PdfFileWriter()
     page = pdf.getPage(0)
     orignal_size = page.mediaBox.getUpperRight_y()
 
